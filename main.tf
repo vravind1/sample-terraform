@@ -136,7 +136,7 @@ resource "aws_instance" "oa_vm" {
 	}
 	key_name = "oa_key"
 	tags = {
-		Name = "OA VM"
+		Name = "OA VM123"
 	}
 }
 
