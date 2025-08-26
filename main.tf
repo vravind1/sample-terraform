@@ -134,10 +134,7 @@ resource "aws_instance" "oa_vm" {
 		network_interface_id = aws_network_interface.oa_nic.id
 		device_index = 0
 	}
-	key_name = "oa_key"
-	tags = {
-		Name = "OA VM"
-	}
+
 }
 
 output "instance_ip_addr" {
